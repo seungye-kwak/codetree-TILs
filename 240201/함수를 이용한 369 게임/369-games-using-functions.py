@@ -9,6 +9,7 @@ def game(a, b) :
             for x in ['3', '6', '9'] :
                 if x in str(i) :
                     cnt += 1
+                    break
     return cnt
 
 print(game(a, b))
