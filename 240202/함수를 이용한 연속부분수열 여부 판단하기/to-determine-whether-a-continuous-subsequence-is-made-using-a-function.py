@@ -11,6 +11,9 @@ def part_seq(a, b) :
     else :
         lst1, lst2 = b, a
 
+    if lst2[0] not in lst1 :
+        return 'No'
+    
     start = lst1.index(lst2[0])
     mini_lst1 = lst1[start:start+len(lst2)]
     if mini_lst1 == lst2 :
