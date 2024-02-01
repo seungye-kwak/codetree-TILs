@@ -10,7 +10,7 @@ def cal(a, o, c) :
     elif o == '*' :
         r = a * c
     else :
-        r = a/c
+        r = a//c
 
     return f'{a} {o} {c} = {r}'
 
