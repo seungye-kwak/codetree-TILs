@@ -11,7 +11,7 @@ def right_date(y, m, d) :
             max_d = 28
     elif m in [1, 3, 5, 7, 8, 10, 12]:
         max_d = 31
-    elif m in [4, 6, 9, 10]:
+    elif m in [4, 6, 9, 11]:
         max_d = 30
     else :
         max_d = 0
