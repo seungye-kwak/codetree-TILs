@@ -8,13 +8,13 @@ def right_req() :
             stack.append(req_lst[i])
         else :
             if stack :
-                return 'No'
-            else :
                 stack.pop()
+            else :
+                return 'No'
 
     if stack :
-        return 'Yes'
-    else :
         return 'No'
+    else :
+        return 'Yes'
 
 print(right_req())
